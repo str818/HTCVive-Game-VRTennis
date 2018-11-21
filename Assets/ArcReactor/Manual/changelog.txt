@@ -1,0 +1,71 @@
+1.6:
+ - Fixed constant GC generation by idle Launcher
+ - Added Launcher2D which supports 2D colliders
+ - Added simple 2D game demo scene with reflections
+ - Added ArcReactor_Trail component - alternative to Launcher. It will draw shape based on movement of GameObject
+ - Added trails demo scene
+ - Fixed Android fade bug. 
+
+1.5b
+ - minor compatibility changes
+
+1.5
+ - added playback messages
+ - added Clamp playback type
+ - added Size Multiplier variable which allows scaling ray system as a whole
+ - changed left-over particles system behaviour(fixed null reference errors, better perfromance)
+ - changed particles emission mechanism (more stability in emissions, randomization support)
+ - fixed interframe interpolation for emission shape (no more rogue particles at the start of the system)
+ - added new ready-to-use ray prefabs - fire ray, ice ray, oscillating plasma ray
+ 
+
+1.4b
+ - fixed Touched object messaging when combined with physical propagation
+ - fixed shape transforms check at startup (now includes shape points)
+
+1.4
+ - added physical ray propagation (ArcReactor_Launcher)
+ - added Touched object messaging (ArcReactor_Launcher)
+ - added Shape curves settings (ArcReactor_Arc)
+ - Complex nesting - now you can nest arc to 2 other arc with mix coefficient (ArcReactor_Arc)
+ - Shape texture option added (ArcReactor_Arc)
+ - improved Noise texture controls (ArcReactor_Arc)
+ - Combined shape definition - supports mixture of Transforms and Vector3's (ArcReactor_Arc)
+ 
+
+1.3c
+ - added ray fading
+
+1.3b
+ - Disabled no reciever error message for events
+ - fixed lacking of messaging on non-reflecting rays
+
+1.3
+ - Shuriken Particles emitting from rays
+ - "freeze" toggle allows stopping ray timeline progression
+ - added ArcReactorHit class for transmitting hit info in messages
+ - changed main logic of ArcReactor_Launcher from Update to LateUpdate to prevent rendering order issues
+ - added GetOldArcPoint method for interframe interpolation
+ - added 1 prefab(rainbow ray), added particles emitting to prefabs
+ 
+
+1.2b:
+ - manual updates
+ - small bug fixes
+
+1.2:
+ - on-the-fly change of shapeTransforms array allowed
+ - improved precision of shape calculatons
+ - vertex-to-transform snapping option
+ - ArcReactorLauncher supports reflections of rays
+ - 2 more demo scenes: reflections example and shape tracing example
+ - changed folder structure of demo scenes
+ - small bug fixes
+ 
+ 
+1.1:
+ - performance manager
+ - flare support
+ - modular random spatial noise system 
+ - added 3 more ready-to-use prefabs
+ - small bug fixes

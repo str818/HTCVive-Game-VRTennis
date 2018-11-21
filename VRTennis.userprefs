@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Qiu.cs">
+    <Files>
+      <File FileName="Assets\Script\test.cs" Line="30" Column="9" />
+      <File FileName="Assets\Script\UIControl.cs" Line="17" Column="35" />
+      <File FileName="Assets\Script\CollisionSet.cs" Line="19" Column="1" />
+      <File FileName="Assets\Script\Constant.cs" Line="47" Column="35" />
+      <File FileName="Assets\Script\CalculateUitl.cs" Line="23" Column="41" />
+      <File FileName="Assets\Script\Qiu.cs" Line="25" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

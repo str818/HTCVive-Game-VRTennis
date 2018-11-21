@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d4319ed1a3ec7e543829490534dbbc84
+timeCreated: 1491395821
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: FZKaTong-M19S
+  fontNames:
+  - FZKaTong-M19S
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

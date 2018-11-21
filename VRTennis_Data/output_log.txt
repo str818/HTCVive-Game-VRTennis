@@ -1,0 +1,43 @@
+Initialize engine version: 5.4.0f3 (a6d8d714de6f)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   NVIDIA
+    VRAM:     6052 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+- Completed reload, in  0.256 seconds
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\项目\第##章 HTC Vive游戏—VR网球\VRTennis\VRTennis_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InstallationNotFound: "Installation Not Found (100)"!
+ 
+(Filename:  Line: 286)
+
+VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_Init_InstallationNotFound: "Installation Not Found (100)"!
+ 
+(Filename:  Line: 286)
+
+The referenced script on this Behaviour (Game Object 'fireball10') is missing!
+ 
+(Filename:  Line: 1656)
+
+UnloadTime: 1.189531 ms
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3990 -> priority: 1 
+  Thread -> id: 178c -> priority: 1 

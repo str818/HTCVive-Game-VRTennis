@@ -1,0 +1,3299 @@
+fileFormatVersion: 2
+guid: 49b9dcac6f11fd1419d23aa05ce96854
+timeCreated: 1467030327
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: hand_2
+    100002: R_Finger_Controls
+    100004: R_Finger_Controls_1
+    100006: R_Finger_Controls_2
+    100008: R_Finger_Controls_3
+    100010: R_Finger_Palm_Base_con_
+    100012: R_Finger_Palm_Base_con__1
+    100014: R_Finger_Palm_Base_con__2
+    100016: R_Finger_Palm_Base_con__3
+    100018: R_Finger_Seg1_jnt_con_
+    100020: R_Finger_Seg1_jnt_con__1
+    100022: R_Finger_Seg1_jnt_con__2
+    100024: R_Finger_Seg1_jnt_con__3
+    100026: R_Finger_Seg1_jnt_drvr
+    100028: R_Finger_Seg1_jnt_drvr_1
+    100030: R_Finger_Seg1_jnt_drvr_2
+    100032: R_Finger_Seg1_jnt_drvr_3
+    100034: R_Finger_Seg2_jnt_con_
+    100036: R_Finger_Seg2_jnt_con__1
+    100038: R_Finger_Seg2_jnt_con__2
+    100040: R_Finger_Seg2_jnt_con__3
+    100042: R_Finger_Seg2_jnt_drvr
+    100044: R_Finger_Seg2_jnt_drvr_1
+    100046: R_Finger_Seg2_jnt_drvr_2
+    100048: R_Finger_Seg2_jnt_drvr_3
+    100050: R_Finger_Seg3_jnt_drvr
+    100052: R_Finger_Seg3_jnt_drvr_1
+    100054: R_Finger_Seg3_jnt_drvr_2
+    100056: R_Finger_Seg3_jnt_drvr_3
+    100058: R_FK_Finger_null
+    100060: R_FK_Finger_null_1
+    100062: R_FK_Finger_null_1_2
+    100064: R_FK_Finger_null_2
+    100066: R_FK_Finger_null_2_2
+    100068: R_FK_Finger_null_2_3
+    100070: R_FK_Finger_null_3
+    100072: R_FK_Finger_null_3_2
+    100074: R_FK_Thumb_null
+    100076: R_NB_FK_Finger_Base_jnt
+    100078: R_NB_FK_Finger_Base_jnt_1
+    100080: R_NB_FK_Finger_Base_jnt_2
+    100082: R_NB_FK_Finger_Base_jnt_3
+    100084: R_NB_FK_Finger_End_jnt
+    100086: R_NB_FK_Finger_End_jnt_1
+    100088: R_NB_FK_Finger_End_jnt_2
+    100090: R_NB_FK_Finger_End_jnt_3
+    100092: R_NB_FK_Finger_Mid_jnt
+    100094: R_NB_FK_Finger_Mid_jnt_1
+    100096: R_NB_FK_Finger_Mid_jnt_2
+    100098: R_NB_FK_Finger_Mid_jnt_3
+    100100: R_NB_FK_Finger_Palm_Base_jnt
+    100102: R_NB_FK_Finger_Palm_Base_jnt_1
+    100104: R_NB_FK_Finger_Palm_Base_jnt_2
+    100106: R_NB_FK_Finger_Palm_Base_jnt_3
+    100108: R_NB_FK_Finger_Top_jnt
+    100110: R_NB_FK_Finger_Top_jnt_1
+    100112: R_NB_FK_Finger_Top_jnt_2
+    100114: R_NB_FK_Finger_Top_jnt_3
+    100116: R_NB_FK_Thumb_Base_jnt
+    100118: R_NB_FK_Thumb_End_jnt
+    100120: R_NB_FK_Thumb_Mid_jnt
+    100122: R_NB_FK_Thumb_Root_jnt
+    100124: R_Thumb_Controls
+    100126: R_Thumb_null
+    100128: R_Thumb_Palm_Base_con_
+    100130: R_Thumb_Seg1_jnt_con_
+    100132: R_Thumb_Seg1_jnt_drvr
+    100134: R_Thumb_Seg2_jnt_drvr
+    100136: root
+    100138: sleeve
+    100140: //RootNode
+    400000: hand_2
+    400002: R_Finger_Controls
+    400004: R_Finger_Controls_1
+    400006: R_Finger_Controls_2
+    400008: R_Finger_Controls_3
+    400010: R_Finger_Palm_Base_con_
+    400012: R_Finger_Palm_Base_con__1
+    400014: R_Finger_Palm_Base_con__2
+    400016: R_Finger_Palm_Base_con__3
+    400018: R_Finger_Seg1_jnt_con_
+    400020: R_Finger_Seg1_jnt_con__1
+    400022: R_Finger_Seg1_jnt_con__2
+    400024: R_Finger_Seg1_jnt_con__3
+    400026: R_Finger_Seg1_jnt_drvr
+    400028: R_Finger_Seg1_jnt_drvr_1
+    400030: R_Finger_Seg1_jnt_drvr_2
+    400032: R_Finger_Seg1_jnt_drvr_3
+    400034: R_Finger_Seg2_jnt_con_
+    400036: R_Finger_Seg2_jnt_con__1
+    400038: R_Finger_Seg2_jnt_con__2
+    400040: R_Finger_Seg2_jnt_con__3
+    400042: R_Finger_Seg2_jnt_drvr
+    400044: R_Finger_Seg2_jnt_drvr_1
+    400046: R_Finger_Seg2_jnt_drvr_2
+    400048: R_Finger_Seg2_jnt_drvr_3
+    400050: R_Finger_Seg3_jnt_drvr
+    400052: R_Finger_Seg3_jnt_drvr_1
+    400054: R_Finger_Seg3_jnt_drvr_2
+    400056: R_Finger_Seg3_jnt_drvr_3
+    400058: R_FK_Finger_null
+    400060: R_FK_Finger_null_1
+    400062: R_FK_Finger_null_1_2
+    400064: R_FK_Finger_null_2
+    400066: R_FK_Finger_null_2_2
+    400068: R_FK_Finger_null_2_3
+    400070: R_FK_Finger_null_3
+    400072: R_FK_Finger_null_3_2
+    400074: R_FK_Thumb_null
+    400076: R_NB_FK_Finger_Base_jnt
+    400078: R_NB_FK_Finger_Base_jnt_1
+    400080: R_NB_FK_Finger_Base_jnt_2
+    400082: R_NB_FK_Finger_Base_jnt_3
+    400084: R_NB_FK_Finger_End_jnt
+    400086: R_NB_FK_Finger_End_jnt_1
+    400088: R_NB_FK_Finger_End_jnt_2
+    400090: R_NB_FK_Finger_End_jnt_3
+    400092: R_NB_FK_Finger_Mid_jnt
+    400094: R_NB_FK_Finger_Mid_jnt_1
+    400096: R_NB_FK_Finger_Mid_jnt_2
+    400098: R_NB_FK_Finger_Mid_jnt_3
+    400100: R_NB_FK_Finger_Palm_Base_jnt
+    400102: R_NB_FK_Finger_Palm_Base_jnt_1
+    400104: R_NB_FK_Finger_Palm_Base_jnt_2
+    400106: R_NB_FK_Finger_Palm_Base_jnt_3
+    400108: R_NB_FK_Finger_Top_jnt
+    400110: R_NB_FK_Finger_Top_jnt_1
+    400112: R_NB_FK_Finger_Top_jnt_2
+    400114: R_NB_FK_Finger_Top_jnt_3
+    400116: R_NB_FK_Thumb_Base_jnt
+    400118: R_NB_FK_Thumb_End_jnt
+    400120: R_NB_FK_Thumb_Mid_jnt
+    400122: R_NB_FK_Thumb_Root_jnt
+    400124: R_Thumb_Controls
+    400126: R_Thumb_null
+    400128: R_Thumb_Palm_Base_con_
+    400130: R_Thumb_Seg1_jnt_con_
+    400132: R_Thumb_Seg1_jnt_drvr
+    400134: R_Thumb_Seg2_jnt_drvr
+    400136: root
+    400138: sleeve
+    400140: //RootNode
+    2300000: sleeve
+    3300000: sleeve
+    4300000: sleeve
+    4300002: hand_2
+    7400000: Idle
+    7400002: Point
+    7400004: GrabSmall
+    7400006: GrabLarge
+    7400008: GrabStickUp
+    7400010: GrabStickFront
+    7400012: ThumbUp
+    7400014: Fist
+    7400016: C4D Animation Take4
+    7400018: Gun
+    7400020: GunShoot
+    7400022: PushButton
+    7400024: Spread
+    7400026: MiddleFinger
+    7400028: Peace
+    7400030: OK
+    7400032: Phone
+    7400034: Rock
+    7400036: Natural
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: hand_2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: C4D Animation Take
+      firstFrame: 5
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Point
+      takeName: C4D Animation Take
+      firstFrame: 15
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GrabLarge
+      takeName: C4D Animation Take
+      firstFrame: 25
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GrabSmall
+      takeName: C4D Animation Take
+      firstFrame: 35
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GrabStickUp
+      takeName: C4D Animation Take
+      firstFrame: 45
+      lastFrame: 50
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GrabStickFront
+      takeName: C4D Animation Take
+      firstFrame: 55
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ThumbUp
+      takeName: C4D Animation Take
+      firstFrame: 65
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fist
+      takeName: C4D Animation Take
+      firstFrame: 75
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Gun
+      takeName: C4D Animation Take
+      firstFrame: 85
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: GunShoot
+      takeName: C4D Animation Take
+      firstFrame: 90
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: PushButton
+      takeName: C4D Animation Take
+      firstFrame: 110
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Spread
+      takeName: C4D Animation Take
+      firstFrame: 120
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: MiddleFinger
+      takeName: C4D Animation Take
+      firstFrame: 130
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Peace
+      takeName: C4D Animation Take
+      firstFrame: 140
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: OK
+      takeName: C4D Animation Take
+      firstFrame: 150
+      lastFrame: 155
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Phone
+      takeName: C4D Animation Take
+      firstFrame: 160
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Rock
+      takeName: C4D Animation Take
+      firstFrame: 170
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Natural
+      takeName: C4D Animation Take
+      firstFrame: 180
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: hand_2
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/R_FK_Finger_null
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_
+        weight: 1
+      - path: root/R_FK_Finger_null/R_Finger_Controls/R_Finger_Palm_Base_con_/R_Finger_Seg1_jnt_drvr/R_Finger_Seg1_jnt_con_/R_Finger_Seg2_jnt_drvr/R_Finger_Seg2_jnt_con_/R_Finger_Seg3_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null/R_FK_Finger_null_2_3/R_NB_FK_Finger_Palm_Base_jnt/R_NB_FK_Finger_Base_jnt/R_NB_FK_Finger_Mid_jnt/R_NB_FK_Finger_Top_jnt/R_NB_FK_Finger_End_jnt
+        weight: 1
+      - path: root/R_FK_Finger_null_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_Finger_Controls_1/R_Finger_Palm_Base_con__1/R_Finger_Seg1_jnt_drvr_1/R_Finger_Seg1_jnt_con__1/R_Finger_Seg2_jnt_drvr_1/R_Finger_Seg2_jnt_con__1/R_Finger_Seg3_jnt_drvr_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_1/R_FK_Finger_null_1_2/R_NB_FK_Finger_Palm_Base_jnt_1/R_NB_FK_Finger_Base_jnt_1/R_NB_FK_Finger_Mid_jnt_1/R_NB_FK_Finger_Top_jnt_1/R_NB_FK_Finger_End_jnt_1
+        weight: 1
+      - path: root/R_FK_Finger_null_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_Finger_Controls_2/R_Finger_Palm_Base_con__2/R_Finger_Seg1_jnt_drvr_2/R_Finger_Seg1_jnt_con__2/R_Finger_Seg2_jnt_drvr_2/R_Finger_Seg2_jnt_con__2/R_Finger_Seg3_jnt_drvr_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_2/R_FK_Finger_null_2_2/R_NB_FK_Finger_Palm_Base_jnt_2/R_NB_FK_Finger_Base_jnt_2/R_NB_FK_Finger_Mid_jnt_2/R_NB_FK_Finger_Top_jnt_2/R_NB_FK_Finger_End_jnt_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_Finger_Controls_3/R_Finger_Palm_Base_con__3/R_Finger_Seg1_jnt_drvr_3/R_Finger_Seg1_jnt_con__3/R_Finger_Seg2_jnt_drvr_3/R_Finger_Seg2_jnt_con__3/R_Finger_Seg3_jnt_drvr_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3
+        weight: 1
+      - path: root/R_FK_Finger_null_3/R_FK_Finger_null_3_2/R_NB_FK_Finger_Palm_Base_jnt_3/R_NB_FK_Finger_Base_jnt_3/R_NB_FK_Finger_Mid_jnt_3/R_NB_FK_Finger_Top_jnt_3/R_NB_FK_Finger_End_jnt_3
+        weight: 1
+      - path: root/R_FK_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_Controls/R_Thumb_Palm_Base_con_/R_Thumb_Seg1_jnt_drvr/R_Thumb_Seg1_jnt_con_/R_Thumb_Seg2_jnt_drvr
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt
+        weight: 1
+      - path: root/R_FK_Thumb_null/R_Thumb_null/R_NB_FK_Thumb_Root_jnt/R_NB_FK_Thumb_Base_jnt/R_NB_FK_Thumb_Mid_jnt/R_NB_FK_Thumb_End_jnt
+        weight: 1
+      - path: sleeve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

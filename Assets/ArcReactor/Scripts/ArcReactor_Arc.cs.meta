@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 95bdfe7476280ba478ac44cdcba5b058
+labels:
+- Laser
+- Beam
+- Plasma
+- Raycast
+- LineRenderer
+- Magic
+- Ray
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

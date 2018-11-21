@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: 5f3c4c065c7de5e4a84f308d2f0125a9
+timeCreated: 1477400197
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: vallbf01
+    100004: vallbf02
+    100006: vallbf03
+    100008: vallbf04
+    100010: vallbf05
+    100012: VALLESTR
+    100014: VALLEXPOV
+    100016: VALLLUZ1
+    100018: VALLLUZ2
+    100020: VALLLUZ3
+    100022: VALLLUZ4
+    100024: VALLLUZ5
+    100026: vallmarc
+    100028: VALLPAN
+    100030: vallpie1
+    100032: vallpie2
+    100034: vallpie3
+    100036: vallpie4
+    100038: vallpie5
+    100040: VALLTLF
+    400000: //RootNode
+    400002: vallbf01
+    400004: vallbf02
+    400006: vallbf03
+    400008: vallbf04
+    400010: vallbf05
+    400012: VALLESTR
+    400014: VALLEXPOV
+    400016: VALLLUZ1
+    400018: VALLLUZ2
+    400020: VALLLUZ3
+    400022: VALLLUZ4
+    400024: VALLLUZ5
+    400026: vallmarc
+    400028: VALLPAN
+    400030: vallpie1
+    400032: vallpie2
+    400034: vallpie3
+    400036: vallpie4
+    400038: vallpie5
+    400040: VALLTLF
+    2300000: vallbf01
+    2300002: vallbf02
+    2300004: vallbf03
+    2300006: vallbf04
+    2300008: vallbf05
+    2300010: VALLESTR
+    2300012: VALLEXPOV
+    2300014: VALLLUZ1
+    2300016: VALLLUZ2
+    2300018: VALLLUZ3
+    2300020: VALLLUZ4
+    2300022: VALLLUZ5
+    2300024: vallmarc
+    2300026: VALLPAN
+    2300028: vallpie1
+    2300030: vallpie2
+    2300032: vallpie3
+    2300034: vallpie4
+    2300036: vallpie5
+    2300038: VALLTLF
+    3300000: vallbf01
+    3300002: vallbf02
+    3300004: vallbf03
+    3300006: vallbf04
+    3300008: vallbf05
+    3300010: VALLESTR
+    3300012: VALLEXPOV
+    3300014: VALLLUZ1
+    3300016: VALLLUZ2
+    3300018: VALLLUZ3
+    3300020: VALLLUZ4
+    3300022: VALLLUZ5
+    3300024: vallmarc
+    3300026: VALLPAN
+    3300028: vallpie1
+    3300030: vallpie2
+    3300032: vallpie3
+    3300034: vallpie4
+    3300036: vallpie5
+    3300038: VALLTLF
+    4300000: vallpie5
+    4300002: vallpie4
+    4300004: vallpie3
+    4300006: vallpie2
+    4300008: vallpie1
+    4300010: vallmarc
+    4300012: VALLTLF
+    4300014: VALLLUZ5
+    4300016: VALLLUZ2
+    4300018: VALLPAN
+    4300020: VALLESTR
+    4300022: VALLEXPOV
+    4300024: VALLLUZ3
+    4300026: VALLLUZ4
+    4300028: VALLLUZ1
+    4300030: vallbf01
+    4300032: vallbf02
+    4300034: vallbf03
+    4300036: vallbf04
+    4300038: vallbf05
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
